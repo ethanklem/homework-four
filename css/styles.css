@@ -1,0 +1,453 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(../fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Proxima;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+.hero {
+  width: 1280px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 30px;
+}
+.hero .homeText {
+  margin-top: 89px;
+  width: 1280px;
+  text-align: center;
+  color: #fff;
+}
+.hero .homeText .title {
+  font-size: 60px;
+  margin-right: 40px;
+  font-family: Proxima;
+}
+.hero .homeText .homesentence {
+  font-size: 20px;
+  padding-bottom: 20px;
+  margin-right: 40px;
+  font-family: GillSans;
+}
+.hero .homeText .homeButton {
+  background-color: #79ADDC;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 40px;
+  font-family: GillSans;
+}
+
+.promo-tours {
+  width: 1280px;
+  height: 304px;
+  margin: -50px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 210px;
+  padding-right: 210px;
+}
+.promo-tours .promoIsrael {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 50px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.promo-tours .promoIsrael .place {
+  font-size: 60px;
+}
+.promo-tours .promoIsrael .price {
+  font-size: 30px;
+  margin-top: -20px;
+}
+.promo-tours .promoIsrael .tourButton {
+  width: 133px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #79ADDC;
+  color: white;
+  border-style: none;
+  margin-top: 50px;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.promo-tours .promoUSA {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 50px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.promo-tours .promoUSA .place {
+  font-size: 60px;
+}
+.promo-tours .promoUSA .price {
+  font-size: 30px;
+  margin-top: -20px;
+}
+.promo-tours .promoUSA .tourButton {
+  width: 133px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #79ADDC;
+  color: white;
+  border-style: none;
+  margin-top: 50px;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.promo-tours .promoAustralia {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 50px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.promo-tours .promoAustralia .place {
+  font-size: 60px;
+}
+.promo-tours .promoAustralia .price {
+  font-size: 30px;
+  margin-top: -20px;
+}
+.promo-tours .promoAustralia .tourButton {
+  width: 133px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #79ADDC;
+  color: white;
+  border-style: none;
+  margin-top: 50px;
+  cursor: pointer;
+  font-family: GillSans;
+}
+
+footer {
+  width: 1280px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #79ADDC;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding-top: 45px;
+  font-family: GillSans;
+}
+footer .logofoot {
+  width: 92px;
+  height: 42px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  margin-top: -15px;
+}
+footer .logofoot p {
+  font-size: 20px;
+  color: white;
+  font-family: GillSans;
+  margin-top: 19px;
+  letter-spacing: 1.8px;
+}
+footer .footerText {
+  font-size: 12px;
+}
+footer .socials {
+  font-size: 20px;
+  width: 116px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 10px;
+}
+
+.booking-form {
+  width: 1280px;
+  height: 890px;
+  margin: 0 auto;
+  padding-top: 30px;
+  font-family: GillSans;
+}
+.booking-form .form {
+  margin-left: 210px;
+}
+.booking-form h1 {
+  color: black;
+  font-size: 60px;
+  padding-bottom: 10px;
+  font-family: Proxima;
+}
+.booking-form .first-inputs {
+  display: flex;
+}
+.booking-form .first-inputs ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .inputname {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 344px;
+  height: 58px;
+}
+.booking-form .inputemail {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 453px;
+  height: 58px;
+  margin-left: 20px;
+}
+.booking-form .check {
+  display: flex;
+}
+.booking-form .check img {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  margin-top: 18px;
+  margin-left: -30px;
+}
+.booking-form .check ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .check .checkText {
+  font-size: 18px;
+  padding-right: 25px;
+  margin-top: 18px;
+}
+.booking-form .check .checkInput {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 727px;
+  height: 58px;
+}
+.booking-form .checkout {
+  display: flex;
+}
+.booking-form .checkout img {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  margin-top: 18px;
+  margin-left: -30px;
+}
+.booking-form .checkout ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .checkout .checkoutText {
+  font-size: 18px;
+  padding-right: 16px;
+  margin-top: 18px;
+}
+.booking-form .checkout .checkoutInput {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 727px;
+  height: 58px;
+}
+.booking-form .triple {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 190px;
+  width: 818px;
+}
+.booking-form .triple .adult {
+  display: flex;
+}
+.booking-form .triple .adult img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 160px;
+  margin-top: 18px;
+}
+.booking-form .triple .adult ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .triple .adult .adultText {
+  font-size: 18px;
+  padding-right: 16px;
+  margin-top: 18px;
+}
+.booking-form .triple .adult .adultInput {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 103px;
+  height: 58px;
+  margin-left: 33px;
+}
+.booking-form .triple .children {
+  display: flex;
+}
+.booking-form .triple .children img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 150px;
+  margin-top: 18px;
+}
+.booking-form .triple .children ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .triple .children .childrenText {
+  font-size: 18px;
+  padding-right: 16px;
+  margin-top: 18px;
+}
+.booking-form .triple .children .childrenInput {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 103px;
+  height: 58px;
+}
+.booking-form .triple .rooms {
+  display: flex;
+}
+.booking-form .triple .rooms img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 140px;
+  margin-top: 18px;
+}
+.booking-form .triple .rooms ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .triple .rooms .roomsText {
+  font-size: 18px;
+  padding-right: 16px;
+  margin-top: 18px;
+}
+.booking-form .triple .rooms .roomsInput {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 103px;
+  height: 58px;
+}
+.booking-form .message ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .message .messageInput {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 818px;
+  height: 192px;
+  padding-bottom: 140px;
+}
+.booking-form .submit {
+  width: 813px;
+  height: 60px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #79ADDC;
+  color: white;
+  border-style: none;
+  margin-top: 50px;
+  cursor: pointer;
+  font-family: GillSans;
+}
+
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #fff solid 2px;
+  font-family: GillSans;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+}
+nav .logo p {
+  font-size: 20px;
+  color: white;
+  margin-top: 19px;
+  letter-spacing: 1.8px;
+}
+nav .links {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  font-size: 15px;
+}
+nav .line {
+  color: #79ADDC;
+  margin-top: 10px;
+}
