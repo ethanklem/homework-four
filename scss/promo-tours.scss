@@ -1,8 +1,9 @@
 .promo-tours {
-    width: 1280px;
-    height: 304px;
+    max-width: 1280px;
+    min-height: 304px;
     margin: -50px auto 0 auto;
     display: flex;
+    // flex-wrap: wrap;
     justify-content: space-around;
     padding-left: 210px;
     padding-right: 210px;
@@ -128,3 +129,25 @@
     }
 
 }
+
+@media only screen and (max-width: 1060px) {
+    .promo-tours {
+        width: 236px;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+
+        .promoIsrael {
+            margin-bottom: 30px;
+        }
+
+        .promoUSA {
+            margin-bottom: 30px;
+        }
+
+        .promoAustralia {
+            margin-bottom: 30px;
+        }
+        
+    }
+  }
