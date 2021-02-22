@@ -225,9 +225,14 @@ footer .socials {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 1060px) {
+  footer {
+    margin-top: 50px;
+  }
+}
 .booking-form {
-  width: 1280px;
-  height: 890px;
+  max-width: 1280px;
+  min-height: 890px;
   margin: 0 auto;
   padding-top: 30px;
   font-family: GillSans;
@@ -431,6 +436,67 @@ footer .socials {
   font-family: GillSans;
 }
 
+@media only screen and (max-width: 1060px) {
+  .booking-form {
+    width: 236px;
+  }
+  .booking-form .form {
+    margin-left: 0px;
+  }
+  .booking-form h1 {
+    text-align: center;
+  }
+  .booking-form .first-inputs {
+    flex-direction: column;
+  }
+  .booking-form .inputname {
+    width: 276px;
+    margin-bottom: 10px;
+  }
+  .booking-form .inputemail {
+    width: 276px;
+    margin-left: 0px;
+  }
+  .booking-form .check .checkInput {
+    width: 200px;
+  }
+  .booking-form .checkout .checkoutInput {
+    width: 200px;
+    margin-left: 9px;
+  }
+  .booking-form .triple {
+    flex-direction: column;
+    width: 200px;
+  }
+  .booking-form .triple .adult img {
+    margin-left: 150px;
+  }
+  .booking-form .triple .adult .adultInput {
+    width: 103px;
+    margin-left: 23px;
+    margin-bottom: 10px;
+  }
+  .booking-form .triple .children img {
+    margin-left: 150px;
+  }
+  .booking-form .triple .children .childrenInput {
+    width: 103px;
+    margin-bottom: 10px;
+  }
+  .booking-form .triple .rooms img {
+    margin-left: 150px;
+  }
+  .booking-form .triple .rooms .roomsInput {
+    width: 103px;
+    margin-left: 11px;
+  }
+  .booking-form .message .messageInput {
+    width: 276px;
+  }
+  .booking-form .submit {
+    width: 276px;
+  }
+}
 nav {
   max-width: 980px;
   height: 60px;
@@ -468,4 +534,28 @@ nav a {
 nav .line {
   color: #79ADDC;
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 1280px) {
+  nav {
+    padding-left: 10px;
+  }
+}
+@media only screen and (max-width: 655px) {
+  nav {
+    padding-left: 10px;
+  }
+  nav .logo {
+    width: 92px;
+    height: 42px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+  }
+  nav .logo p {
+    font-size: 13px;
+    color: white;
+    margin-top: 19px;
+    letter-spacing: 1.8px;
+  }
 }

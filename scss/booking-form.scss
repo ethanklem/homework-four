@@ -1,6 +1,6 @@
 .booking-form {
-    width: 1280px;
-    height: 890px;
+    max-width: 1280px;
+    min-height: 890px;
     margin: 0 auto;
     padding-top: 30px;
     font-family: GillSans;
@@ -294,3 +294,140 @@
 
 
 }
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1060px) {
+
+    .booking-form {
+        width: 236px;
+        
+      
+
+        .form {
+            margin-left: 0px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        
+
+        .first-inputs {
+            flex-direction: column;
+            
+            
+
+        }
+
+        
+    .inputname {
+        width: 276px;
+        margin-bottom: 10px;
+  
+    }
+
+    .inputemail {
+        width: 276px;
+        margin-left: 0px;
+        
+     
+    }
+
+    .check {
+
+        .checkInput {
+            width: 200px;   
+        }
+
+
+    }
+
+    .checkout {
+
+        .checkoutInput {
+            width: 200px;
+            margin-left: 9px;
+            
+        }
+    }
+
+    .triple {
+        flex-direction: column;
+        width: 200px;
+        
+        .adult {
+
+            img {
+                margin-left: 150px;
+    
+            }
+
+            .adultInput {
+                width: 103px;
+                margin-left: 23px;
+                margin-bottom: 10px;
+            }
+
+        }
+
+        .children {
+
+
+            img {
+
+                margin-left: 150px;
+       
+    
+            }
+    
+
+
+            .childrenInput {
+                width: 103px;
+                margin-bottom: 10px;
+            }
+
+        }
+
+        .rooms {
+
+            img {
+                margin-left: 150px;
+    
+            }
+
+
+            .roomsInput {
+
+                width: 103px;
+                margin-left: 11px;
+            }
+        }
+
+    }
+
+    .message {
+        
+        .messageInput {
+            width: 276px;  
+        }
+
+    }
+
+
+    .submit {
+        width: 276px;
+        
+    }
+
+
+    }
+
+  }

@@ -42,3 +42,10 @@ footer {
         cursor: pointer;
     }
 }
+
+
+@media only screen and (max-width: 1060px) {
+    footer {
+        margin-top: 50px;
+    }
+}
