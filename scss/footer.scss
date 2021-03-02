@@ -47,5 +47,34 @@ footer {
 @media only screen and (max-width: 1060px) {
     footer {
         margin-top: 50px;
+        padding-left: 20px;
+
+
+        .footerText {
+            margin-left: 60px;
+        }
+
+        .logofoot {
+            
+                width: 92px;
+                height: 42px;
+                border-color: white;
+                border-style: solid;
+                border-width: 2px;
+
+
+                p {
+                    font-size: 13px;
+                    color: white;
+                    margin-top: 19px;
+                    letter-spacing: 1.8px;
+                }
+                
+        }
+
+
+        .socials {
+            padding-right: 20px;
+        }
     }
 }

@@ -64,6 +64,17 @@ p {
   font-family: GillSans;
 }
 
+@media only screen and (max-width: 1060px) {
+  .homeText .title {
+    margin-left: 30px;
+  }
+  .homeText .homesentence {
+    margin-left: 30px;
+  }
+  .homeText .homeButton {
+    margin-left: 30px;
+  }
+}
 .promo-tours {
   max-width: 1280px;
   min-height: 304px;
@@ -228,6 +239,26 @@ footer .socials {
 @media only screen and (max-width: 1060px) {
   footer {
     margin-top: 50px;
+    padding-left: 20px;
+  }
+  footer .footerText {
+    margin-left: 60px;
+  }
+  footer .logofoot {
+    width: 92px;
+    height: 42px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+  }
+  footer .logofoot p {
+    font-size: 13px;
+    color: white;
+    margin-top: 19px;
+    letter-spacing: 1.8px;
+  }
+  footer .socials {
+    padding-right: 20px;
   }
 }
 .booking-form {
